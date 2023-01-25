@@ -1,0 +1,10 @@
+Bundle-Name: custom-notification-api
+Bundle-SymbolicName: com.liferay.samples.fbo.custom.notification.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.samples.fbo.custom.notification.exception,\
+	com.liferay.samples.fbo.custom.notification.model,\
+	com.liferay.samples.fbo.custom.notification.service,\
+	com.liferay.samples.fbo.custom.notification.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../custom-notification-service/service.xml

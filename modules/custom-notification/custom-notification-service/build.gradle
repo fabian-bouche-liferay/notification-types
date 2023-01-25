@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:custom-notification:custom-notification-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../custom-notification-api/src/main/java"
+}
+
+group = "com.liferay.samples.fbo.custom.notification"

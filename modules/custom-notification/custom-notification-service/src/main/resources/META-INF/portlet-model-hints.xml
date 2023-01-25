@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.samples.fbo.custom.notification.model.CustomNotification">
+		<field name="uuid" type="String" />
+		<field name="customNotificationId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="userNotificationEventId" type="long" />
+		<field name="notificationType" type="String" />
+	</model>
+</model-hints>
